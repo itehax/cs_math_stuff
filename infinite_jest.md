@@ -1,6 +1,7 @@
 # Parole imparate leggendo l'opera divina, ovvero Infinite Jest, l'infinita arguzia di David Foster Wallace.
 
 ## Preludio
+
 - Talmud = Parole ebraica che significa "studio". Testo sacro dell'ebraismo rabbinico (messa per iscritto della legge orale)
 - Pomposo = fastoso, appariscente.
 - Incresciosa = che provoca disagio materiale o morale
@@ -17,6 +18,7 @@
 - Scimmiottare = Imitare in maniera goffa.
 
 ## Primo chap
+
 - Decano = Il membro di un corpo accademico o professionale, cui per età, anzianità di nomina o di grado, è conferito il primo posto
 - Annoverare = Elencare, enumerare
 - Eloquio = modo di parlare
@@ -30,10 +32,19 @@
 - Presbiopia = progressiva e naturale incapacità dell'occhio di mettere a fuoco oggetti più vicini.
 - Caustico = pungente,mordente(lett). acidi,alcali o sali capaci di bruciare tessuto organico
 - Manovra di Heimlich = tecnica di primo soccorso per rimuovere un ostruzione dalle vie aeree.
--  Coreutica = arte della danza
-- Cirrio = Ricciolo, ciocca di capelli inanellati(lett), nubi alte e sottili costituite da sottili aghi di ghiaccio. 
+- Coreutica = arte della danza
+- Cirrio = Ricciolo, ciocca di capelli inanellati(lett), nubi alte e sottili costituite da sottili aghi di ghiaccio.
 - Lettiga = letto portatile adoperato per trasporto di persone anziane / malate.
 - Anamnesi = raccolta di informazioni su paziente utili al medico per definire la corretta diagnosi.
 - Infantofilo = come pedofilo
 - Antisettico = che previene o combatte l'infezione.
 - Eziologia = parte di scienza che studia le cause di un fenomeno(eg malattie)
+
+## Secondo chap
+
+- traversa = trave disposta trasversalmente a una struttura(idem per strada secondaria)
+- labbro leporino = difetto fisico da nascita, manca pezzo di labbro
+- pleurite = infiammazione della pleura, la membrana che avvogle i polmoni e parte interna della cavità toracica.
+- pastiche = opera artistica in cui autore imita deliberatamente stile di altro/altri autori
+- fallocentrismo = maschilismo
+- marche di medicine varie.

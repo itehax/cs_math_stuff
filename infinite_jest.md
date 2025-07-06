@@ -48,3 +48,19 @@
 - pastiche = opera artistica in cui autore imita deliberatamente stile di altro/altri autori
 - fallocentrismo = maschilismo
 - marche di medicine varie.
+
+## Terzo chap, cool ma nessuna nuova parola imparata
+## Quarto,quinto chap, letto in treno
+## Sesto chap
+- Attachè = In lang dimplomatico=Addetto
+- Maxillo-facciale = chirurgia che riguarda bocca e elementi annessi.
+- Sinusite moniliale = infezone dei seni paranasali causata da funghi.
+- Kif = droga leggera a base di hashish
+- Pensile = Sospeso nel vuoto,elevato rispetto al terreno circostante mediante artifici che ne garantiscono una funzione decorativa.
+- Istoriato = adorno di figure evocative di imprese o di leggende
+- Mondandola = pulendola
+- Risacche = Modo di ritorno dell'onda.
+- Dispepsia = Dal greco dyspepsia, ovvero cattiva digestione
+- Beeper= apparecchio elettronico che emette beep
+- Discinta = con le vesti scomposte (eufemismo di svestito)
+- trittico = antidepressivo 

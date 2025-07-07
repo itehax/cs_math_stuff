@@ -1,4 +1,5 @@
 #include <pthread.h>
+#include <sched.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,7 +16,25 @@ void *runner(void *param);
 int main(int argc, char *argv[]) {
   pthread_t workers[N_THREADS + 1];
   pthread_attr_t workers_attr;
+  int policy;
   pthread_attr_init(&workers_attr); // maybe can use only one
+  // get current task schedule policy
+  if (!pthread_attr_getschedpolicy(&workers_attr, &policy)) {
+    switch (policy) {
+    case SCHED_OTHER:
+      puts("Sched=OTHER");
+      break;
+    case SCHED_FIFO:
+      puts("Sched=FIFO");
+      break;
+    case SCHED_RR:
+      puts("Sched=Round RObin!");
+      break;
+    default:
+      puts("unexpected dude.");
+      break;
+    }
+  }
   struct range range_data[N_THREADS];
 
   int x = atoi(argv[1]);

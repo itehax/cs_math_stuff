@@ -9,12 +9,16 @@
  - passing null ptr to Stack_Free
  - passing empty stack to Stack_pop
  Unchecked runtime errors:
-    void ptr stuff, cant pass function ptr, cant make certain conversion.
+ - also i can pass, because stack is adt a ptr to another type, leading in UB. can fix for example with a magic value to be checked. for example: int i = 20; Stack_push((Stack_T)&i,200); this should be enforced.
+
+ - void ptr stuff, cant pass function ptr, cant make certain conversion.
  Exceptions:
     None
  */
 
+//#define CANARY_VALUE 0xDEADBEEF
 struct stack_T {
+  //int canary;
   int count;
   struct elem {
     void *x;

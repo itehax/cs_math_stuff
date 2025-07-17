@@ -8,12 +8,18 @@ void safer_free(void **pp) {
     free(*pp);
     *pp = NULL;
   }
+  puts("deallocated!");
 }
-#define safe_free(p) safer_free((void **)&(p))
+#define FREE(p) safer_free((void **)&(p))
 
-#define RAII_VARIABLE(vartype, varname, initval, dtor)                         \
-  void _dtor_##varname(vartype *v) { dtor(*v); }                               \
-  vartype varname __attribute__((cleanup(_dtor_##varname))) = (initval)
+#define RAII_VARIABLE(vartype, varname, dtor)                                  \
+  inline void _dtor_##varname(vartype *v) { dtor(*v); }                        \
+  vartype varname __attribute__((cleanup(_dtor_##varname)))
+
+#define KEEP_ALIVE(vartype,varname) //here i wanto set \
+
+#define MANY(T, Q) (T *)malloc(sizeof(T) * (Q))
+#define NEW(T) MANY(T, 1)
 
 int add(int x, int y) { return x + y; }
 int sub(int x, int y) { return x - y; }
@@ -31,6 +37,8 @@ int eval(char opcode, int x, int y) {
 }
 
 int main() {
-  init_ops();
-  printf("%d\n", eval('+', 10, 240));
+  RAII_VARIABLE(int *, test, FREE) = MANY(int, 5);
+  printf("%p\n", test);
+  RAII_VARIABLE(int *, testt, FREE) = NEW(int);
+  printf("%p\n", testt);
 }

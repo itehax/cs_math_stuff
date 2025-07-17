@@ -25,4 +25,6 @@
 ```
 - little endian = store lsb(bytes,not byes) in lower address of memory and so on.(in short when i'm reading mem in a debugger, the first byte i read is the lsbyte(of course depends of how memory is displayed but in general is like that))
 - Different kind of jmp in x86-64. indirect = in register, relative = relative to rip (in code, via label), absolute = given address
-
+- volatile keyword useful for embedded, ecc. basically is used if a variable can be modified externally and i want it to be updated. in short the compiler place it in memory
+and not in register, then re-read this variable each time.
+- Some cool c memory tricks.
